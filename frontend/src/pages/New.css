@@ -25,10 +25,16 @@ form#new-post input[type=text] {
 form#new-post button {
   padding: 10px 20px;
   border-radius: 4px;
-  border: 0;
-  background: #5851db;
+  border: 1px solid #e1306c;
+  background: #e1306c;
   color: #FFF;
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+  transition: 300ms ease-in;
+}
+
+form#new-post button:hover {
+  background: transparent;
+  color: #e1306c;
 }
